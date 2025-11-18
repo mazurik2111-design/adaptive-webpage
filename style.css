@@ -36,6 +36,10 @@ header {
     display: flex;
     justify-content: center;
     gap: 15px;
+<<<<<<< HEAD
+=======
+    flex-wrap: wrap;
+>>>>>>> 95990b9f1d72af7ddc0b00ad49a5b7af296e3563
 }
 
 .navbar a {
@@ -71,7 +75,11 @@ h1 {
     color: var(--accent);
 }
 
+<<<<<<< HEAD
 h2 {
+=======
+h2, h3 {
+>>>>>>> 95990b9f1d72af7ddc0b00ad49a5b7af296e3563
     margin-top: 20px;
     margin-bottom: 15px;
     color: var(--accent2);
@@ -135,6 +143,53 @@ img, video {
     margin: 15px 0;
 }
 
+<<<<<<< HEAD
+=======
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: var(--light);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.card img {
+    border-radius: 8px;
+}
+
+.card h3 {
+    color: var(--accent2);
+    margin: 10px 0;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: var(--accent2);
+    color: var(--light);
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: var(--accent);
+}
+
+>>>>>>> 95990b9f1d72af7ddc0b00ad49a5b7af296e3563
 @media (max-width:768px) {
     .navbar {
         flex-direction: column;
@@ -146,4 +201,12 @@ img, video {
         height: 80px;
         font-size: 14px;
     }
+<<<<<<< HEAD
 }
+=======
+
+    .card-grid {
+        grid-template-columns: 1fr;
+    }
+}
+>>>>>>> 95990b9f1d72af7ddc0b00ad49a5b7af296e3563
